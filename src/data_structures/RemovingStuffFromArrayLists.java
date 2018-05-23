@@ -58,6 +58,11 @@ public class RemovingStuffFromArrayLists {
 		truth.add('t');
 
 		/* TODO 2: Remove the hash symbols and print out the truth. */
-
+		for (char i: truth) {
+			String j = ""+i;
+			if (!j.equals("#")) {
+				System.out.println(j);
+			}
+		}
 	}
 }
